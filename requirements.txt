@@ -1,0 +1,11 @@
+pyTelegramBotAPI
+yt-dlp
+aiohttp
+Flask
+requests
+Pillow
+instaloader
+gallery-dl
+mutagen
+python-dotenv
+gunicorn
