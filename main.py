@@ -41,7 +41,7 @@ BOT_TOKEN    = os.environ.get("BOT_TOKEN", "")
 CHANNEL_ID   = os.environ.get("CHENEL_ID", "")          # e.g. @mychannel
 ADMIN_USERID = os.environ.get("ADMIN_USERID", "")        # single admin user id string
 ADMIN_IDS_RAW= os.environ.get("ADMIN_IDS", "")          # comma-separated admin ids
-PORT         = int(os.environ.get("PORT", 10000))
+PORT = int(os.environ.get("PORT") or 10000)
 WEBHOOK_URL  = os.environ.get("WEBHOOK_URL", "")         # optional for webhook mode
 
 ADMIN_IDS: set[int] = set()
